@@ -1,16 +1,16 @@
 #include<stdio.h>
-int sum(int a,int b)
+int add2(int a,int b)
 {
-int s;
-s=a+b;
-return s;
+	int sum;
+	sum=a+b;
+	return sum;
 }
 int main()
 {
-int c,d,e;
-printf("Enter two numbers:");
-scanf("%d%d",&c,&d);
-e=sum(c,d);
-printf("The sum of %d and %d is %d",c,d,e);
-return 0;
+	int b,c,s;
+	printf("Enter the two numbers to be added:");
+	scanf("%d%d",&b,&c);
+	s=add2(b,c);
+	printf("The sum is:%d",s);
+	return(0);
 }
