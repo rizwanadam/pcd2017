@@ -14,4 +14,3 @@ g=sum(c,d,e);
 printf("The sum of %d,%d and %d is %d",c,d,e,g);
 return 0;
 }
-
