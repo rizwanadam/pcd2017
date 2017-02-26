@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include<conio.h>
+#include<math.h>
 struct complex
 {
 float real;
@@ -21,6 +21,5 @@ printf("Enter the real and imaginary part of 2nd complex no.:");
 scanf("%f%f",&g.real,&g.imag);
 h=add(f,g);
 printf("Its sum is %f+%fi",h.real,h.imag);
-return (0);
-getch();
+return 0;
 }
