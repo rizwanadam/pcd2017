@@ -48,9 +48,11 @@ if(q!=r) { printf("The multiplication is not possible");
 }
 else 
 { 
-get_matrix(p,q,x); 
+get_matrix(p,q,x);
+print_matrix(p,q,x);
 get_matrix(r,s,Y);
- mul_matrices(p,q,r,s,x,Y);
+print_matrix(r,s,Y);
+mul_matrices(p,q,r,s,x,Y);
 }
 return 0;
 }
