@@ -42,7 +42,9 @@ int main()
 	printf("Enter order of the matrices:");
 	scanf("%d%d",&r,&c);
 	get_matrix(x,r,c);
+	print_matrix(x,r,c);
 	get_matrix(y,r,c);
+	print_matrix(y,r,c);
 	add_matrices(r,c,x,y);
 	return 0;
 }
