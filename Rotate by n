@@ -1,0 +1,30 @@
+#include<stdio.h>
+unsigned int rotate(unsigned int n,int x)
+{
+int i;
+for(i=1;i<=x;i++)
+{
+if(n%2==0)
+{
+n=n>>1;
+}
+else
+{
+n=n>>1;
+n=n+(1<<31);
+}
+}
+return n;
+}
+int main()
+{
+unsigned int n,res;
+int x;
+printf("Enter the number:");
+scanf("%d",&n);
+printf("Enter the positions to be rotated by:");
+scanf("%d",&x);
+res=rotate(n,x);
+printf("The rotated number is:%d",res);
+return 0;
+}
